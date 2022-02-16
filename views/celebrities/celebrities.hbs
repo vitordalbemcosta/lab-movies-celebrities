@@ -1,0 +1,9 @@
+<h2>Celebrities Page</h2>
+{{#each celebrities}}
+  <h3>{{name}}</h3>
+  <p>Occupation: {{occupation}}</p>
+  <p>Catch Phrase: {{catchPhrase}}</p>
+  {{!-- <a href="/celebrities/{{_id}}/edit">Edit</a>
+  <form action="/celebrities/{{_id}}/delete" method="post">
+<button>Delete</button> --}}
+{{/each}}
